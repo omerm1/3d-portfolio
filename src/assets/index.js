@@ -29,6 +29,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import freelancer from "./freelancer.png";
+import sveltejs from "./tech/sveltejs.png";
+import python from "./tech/python.png";
+import vuejs from "./tech/vuejs.png";
+import spartaglobal from "./spartaglobal.png";
+import java from "./tech/java.png";
 
 export {
   logo,
@@ -59,4 +65,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  freelancer,
+  spartaglobal,
+  vuejs,
+  sveltejs,
+  python,
+  java,
+
 };

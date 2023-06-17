@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  python,
+  java,
+  sveltejs,
+  vuejs,
+  freelancer,
+  spartaglobal
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +52,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Developer",
+    icon: reactjs,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Frontend Developer",
+    icon: tailwind,
   },
 ];
 
@@ -81,8 +87,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: 'vuejs',
+    icon: vuejs,
+  },
+  {
+    name: 'svelte',
+    icon: sveltejs,
   },
   {
     name: "Tailwind CSS",
@@ -97,74 +107,44 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "python",
+    icon: python,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name: 'java',
+    icon: java
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Shopify/Web Developer",
+    company_name: "Freelancer",
+    icon: freelancer,
+    iconBg: "#FFFFFF",
+    date: "2019-2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and optimized Shopify sites for clients, resulting in improved user experience and increased conversions.",
+      "Collaborated closely with clients to understand their specific business needs and designed and implemented custom websites tailored to their requirements.",
+      "Utilized Python and JavaScript programming languages to create dynamic and responsive web pages with interactive features.",
+      "Successfully delivered projects on time and within budget, receiving positive feedback from clients for the quality of work and attention to detail.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Consultant",
+    company_name: "Sparta Global",
+    icon: spartaglobal,
+    iconBg: "#FFFFFF",
+    date: "2022-2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Successfully completed intensive training in SDET-Java fundamentals and applications, acquiring a solid foundation in software development and testing practices.",
+      "Developed a strong understanding of React, smart contracts, and Tricentis Tosca, gaining expertise in modern web development technologies and automated testing frameworks.",
+      "Applied programming fundamentals on a daily basis while working on various projects, effectively solving complex technical challenges and delivering high-quality solutions.",
+      "Demonstrated a strong commitment to continuous learning, staying updated with the latest industry trends and best practices to drive innovation and deliver cutting-edge solutions.",
     ],
   },
 ];
@@ -200,65 +180,24 @@ const projects = [
   {
     name: "Car Rent",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mock for a Web-based platform that allows users to search, book, and manage car rentals from various providers.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nextjs",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/omerm1/car-showcase",
+    source_link: "https://car-showcase-ten-sepia.vercel.app/",
   },
 ];
 
